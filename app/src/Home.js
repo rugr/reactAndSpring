@@ -11,12 +11,12 @@ class Home extends Component {
     render() {
         return (
             <div>
-            <AppNavbar/>
-            <Container fluid>
-        <Button color="link"><Link to="/groups">Manage JUG Tour</Link></Button>
-        </Container>
-        </div>
-    );
+                <AppNavbar/>
+                <Container fluid>
+                    <Button color="link"><Link to="/groups">Manage JUG Tour</Link></Button>
+                </Container>
+            </div>
+        );
     }
 }
 
